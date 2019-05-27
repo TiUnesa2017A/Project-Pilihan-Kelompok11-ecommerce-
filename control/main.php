@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Admin ZEON Store</title>
+  <title>Admin O-sport</title>
   <link rel="icon" href="favicon.ico">
   <link rel="shortcut icon" href="../logo.png">
     
@@ -120,16 +120,16 @@
           <!-- User Account: style can be found in dropdown.less -->
           <li class="dropdown user user-menu">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-              <img src="user.jpeg" class="user-image" alt="User Image">
-              <span class="hidden-xs">ZEON STORE</span>
+              <img src="default.png" class="user-image" alt="User Image">
+              <span class="hidden-xs">O-sport</span>
             </a>
             <ul class="dropdown-menu">
               <!-- User image -->
               <li class="user-header">
-                <img src="user.jpeg" class="img-circle" alt="User Image">
+                <img src="default.png" class="img-circle" alt="User Image">
 
                 <p>
-                  ZEON STORE - <?php echo $_SESSION['user']; ?>
+                  O-sport - <?php echo $_SESSION['user']; ?>
                   <small><?php echo $_SESSION['pass']; ?></small>
                 </p>
               </li>
@@ -156,10 +156,10 @@
       <!-- Sidebar user panel -->
       <div class="user-panel">
         <div class="pull-left image">
-          <img src="user.jpeg" class="img-circle" alt="User Image">
+          <img src="default.png" class="img-circle" alt="User Image">
         </div>
         <div class="pull-left info">
-          <p>Zeon Store - <?php echo $_SESSION['user']; ?></p>
+          <p>O-sport - <?php echo $_SESSION['user']; ?></p>
           <i class="glyphicon glyphicon-time"></i> <?php echo tgl(date('d-m-Y')); ?>
         </div>
       </div>
@@ -339,8 +339,7 @@ else{
     <div class="pull-right hidden-xs">
       <b>WA 081330707048</b>
     </div>
-    <strong>Copyright &copy; 2017 <a href="#">Rino Oktavianto (081330707048)</a>.</strong> All rights
-    reserved.
+    
   </footer>
 
   <!-- Control Sidebar -->
