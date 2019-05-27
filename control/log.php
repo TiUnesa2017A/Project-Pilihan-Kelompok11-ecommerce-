@@ -30,7 +30,7 @@
 <body class="hold-transition login-page">
 <div class="login-box">
   <div class="login-logo">
-    <a href="#"><b>Admin</b> ZEON STORE</a>
+    <a href="#"><b>Admin</b> O-sport</a>
   </div>
   <!-- /.login-logo -->
   <div class="login-box-body">
